@@ -48,7 +48,7 @@ class audio {
         if (music_index < 1 || music_index > 7) {
             return;
         }
-        play(audio, --music_index, time);
+        play(--music_index, time);
     }
 };
 
